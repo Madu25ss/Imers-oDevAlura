@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - _Tabela de classificação - Projeto aula 5</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev
+  </title>
+</head>
+
+<body>
+  <div id="background">
+    <h1>Classificação Alura</h1>
+    <h3 style="color: black; font-size: 40px;text-shadow: -2px 2px 5px white; color: #C63D2F;">Controle de rodadas War</h3>
+
+    <input type="text" id="campoNovoJogador" placeholder="Nome do jogador">
+    <button onclick="criarJogador()">Adicionar jogador</button>
+
+    <table style="width:100%; ">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Vitórias</th>
+          <th>Derrotas</th>
+          <th>Pontos</th>
+          <th colspan="2">Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaJogadores">
+        <!--<tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>-->
+      </tbody>
+    </table>
+    <button onclick="apagarJogadores()">Apagar todos os jogadores</button>
+    <h4 id="descricaoJogo">
+      <strong><a href="https://www.lojagrow.com.br/jogo-war---grow-02000/p#:~:text=Com%20War%2C%20uma%20batalha%20nunca,e%20defina%20a%20sua%20estrat%C3%A9gia." target="_blank">War</a></strong> é um jogo de estratégia, percepção espacial e concentração onde os jogadores precisam conquisrar territórios e continentes derrotando seus adversários.
+    </h4>
+    <ul id="listaAvisos">
+      <h2 style="text-shadow: -2px 2px 2px white; color: #C63D2F;">Regras da tabela</h2>
+      <li>Uma <strong>vitória</strong> acontece quando um jogador consegue concluir sua carta de objetivo.</li>
+      <li>Cada vitória equivale a 5 pontos, mas cada derrota tira 3 pontos do seu score. No final, quem tiver mais pontos ganha.</li>
+    </ul>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
